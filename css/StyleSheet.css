@@ -1,27 +1,28 @@
-﻿.divTop{
-    display: flex;
-    align-items: center;
-    border: 2px solid blue;
-    flex-flow: column;
-    width: 600px;
-    height: 600px;
-    margin: auto;
-    padding-top:20px;
+﻿header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.divForm{
+    max-width:auto;
+    height: 400px;
+    margin:auto;
+    border-bottom:2px solid black;
+    border-radius:5px
 }
 form{
-    width: 50%;
-    height:50%;
-    padding: 30px 20px;
-    margin: 8px 0;
-    display: flex;
+    display:flex;
     align-items:center;
     flex-direction:column;
-  }
-label {
-    font-weight:bold;
-    font-family:Arial;
-    padding:15px 0 15px 0;
+    padding-top:20px;
 }
-#_mesage{
-    height:10220px;
+label {
+    padding:5px 0 5px 0;
+    font-family:Tahoma;
+    font-weight:bold;
+}
+.sexo{
+    padding:5px 0 5px 0;
 }
