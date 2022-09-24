@@ -5,7 +5,8 @@
     <meta charset="utf-8" />
     <link href="css\reset.css" rel="stylesheet" />
     <link href="css\StyleSheet.css" rel="stylesheet" />
-    <script src="js/Script.js"></script>
+    <script src="script\Script.js"></script>
+    <script type="text/javascript" src="script\Scripttext.js"></script>
 
     <title>Desafio 6</title>
 </head>
@@ -14,26 +15,33 @@
     <div class="divForm">
         <header>Preencha o Formulario</header>
         <form>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" value="" id="nome" maxlength="30" />
-            <label for="sobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" value="" id="sobrenome" maxlength="30" />
+            <input type="text" name="nome" value="" id="nome" maxlength="30" onkeyup="somentLetras(this)"
+                   placeholder="Nome">
+            <input type="text" name="sobrenome" value="" id="sobrenome" maxlength="30" onkeyup="somentLetras(this)"
+                   placeholder="Sobrenome"/>
             <div class="sexo">
                 <label for="M">M</label>
                 <input type="radio" name="M" value="m" id="M" />
                 <label for="M">F</label>
                 <input type="radio" name="M" value="m" id="M" />
             </div>
-            <label for="idade">Idade:</label>
-            <input type="number" name="idade" value="" />
-
-            <label for="titulo">Titulo:</label>
-            <input type="text" name="titulo" value="" id="titulo" maxlength="50" />
-            <label for="menssagem">Menssagem:</label>
-            <textarea id="menssagem" style="resize:none" rows="5" cols="21" maxlength="200"></textarea>
+            <input type="number" name="idade" value=""placeholder="Idade" />
+            <input type="text" name="titulo" value="" id="titulo" maxlength="50" placeholder="Titulo"/>
+            <textarea id="menssagem" style="resize:none" rows="5" cols="21" maxlength="200"
+                      placeholder="Messangem"></textarea>
         </form>
+    </div>
+  
+    <div class="divBot">
+        <div class="select">
+            <img src="img\1.jpg" width="50" height="50" />
+            <img src="img\2.jpg" width="50" height="50" />
+            <img src="img\3.jpg" width="50" height="50" />
+            <img src="img\4.jpg" width="50" height="50" />
+        </div>
+
 
     </div>
-
+    
 </body>
 </html>
