@@ -1,5 +1,4 @@
-function somentLetras(input) {
-    var regNumero = /[^a-z]/gi;
-    input.value = input.value.replace(regNumero, "");
-
+function pegaImg(input) {
+    var radImg1 = document.getElementById("img1");
+    
 }

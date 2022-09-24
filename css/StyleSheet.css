@@ -33,7 +33,7 @@ textarea{
 
 .divBot {
     width:auto;
-    height: 300px;
+    height: auto;
     margin: auto;
     background-color: #eaeaea;
 }
@@ -42,10 +42,17 @@ textarea{
     align-items:center;
     margin:auto;
     justify-content:center;
-}
-img{
     
-    margin:30px;
-   display:block;
 }
+.demo{
+    margin:auto;
+    width:200px;
+    height:300px;
+    border: 2px solid black;
+
+}
+
+
+
+
 
