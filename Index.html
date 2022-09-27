@@ -14,36 +14,41 @@
 
     <div class="divForm">
         <header>Preencha o Formulario</header>
-        <form>
+        <form id="form">
             <input type="text" name="nome" value="" id="nome" maxlength="30" onkeyup="somentLetras(this)"
                    placeholder="Nome">
             <input type="text" name="sobrenome" value="" id="sobrenome" maxlength="30" onkeyup="somentLetras(this)"
                    placeholder="Sobrenome" />
             <div class="sexo">
                 <label for="M">M</label>
-                <input type="radio" name="M" value="m" id="M" />
+                <input type="radio" name="msc" value="Prezado" id="M" />
                 <label for="M">F</label>
-                <input type="radio" name="M" value="m" id="M" />
+                <input type="radio" name="msc" value="Prezada" id="F" />
             </div>
             <input type="number" name="idade" value="" placeholder="Idade" />
             <input type="text" name="titulo" value="" id="titulo" maxlength="50" placeholder="Titulo" />
-            <textarea id="menssagem" style="resize:none" rows="5" cols="21" maxlength="200"
+            <textarea type="text" id="menssagem" style="resize:none" rows="5" cols="21" maxlength="200"
                       placeholder="Messangem"></textarea>
         </form>
     </div>
 
     <div class="divBot">
         <div class="select">
-            <input type="image" name="1" src="img\1.jpg" width="75" height="75" onclick="pegaImg1" />
-            <input type="image" name="2" src="img\2.jpg" width="75" height="75" />
-            <input type="image" name="3" src="img\3.jpg" width="75" height="75" />
-            <input type="image" name="4" src="img\4.jpg" width="75" height="75" />
+            <img src="img\1.jpg" alt="Avatar" class="image1" width="75" height="75" onclick="img1('ma')"/>
+            <img src="img\2.jpg" alt="Avatar" class="image2" width="75" height="75"onclick="img2('ma')"/>
+            <img src="img\3.jpg" alt="Avatar" class="image3" width="75" height="75"onclick="img3('ma')"/>
+            <img src="img\4.jpg" alt="Avatar" class="image4" width="75" height="75"onclick="img4('ma')"/>
         </div>
         <div class="btn1">
-            <button class="button">Preview</button>
+            <input type="button" class="button" value="Preview" onclick="preview('ma')"/>
         </div>
-        <div class="frame">
-            <iframe src="Index.html" width=" 300" height="500"></iframe>
+        <div class="frame" id="ma">
+            <text id=txtrect x="5" y="35" font-family="Verdana" font-size="11" fill="white"></text>
+            <div class="oct">
+                <p id="att" ></p>
+                <p id="rod">Rodolfo viscal Soares </p>
+            </div>
+            
         </div>
     </div>
 

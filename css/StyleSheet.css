@@ -36,14 +36,60 @@ textarea{
     height: auto;
     margin: auto;
     background-color: #eaeaea;
+    
 }
 .select{
+    position: relative;
     display:flex;
     align-items:center;
     margin:auto;
     justify-content:center;
+    padding-top: 10px;
     
 }
+.image1{
+    display:block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image1:hover  {
+    opacity: 0.3;
+  }
+.image2{
+    display:block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image2:hover  {
+    opacity: 0.3;
+  }
+
+.image3{
+    display:block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image3:hover  {
+    opacity: 0.3;
+  }
+
+.image4{
+    display:block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image4:hover  {
+    opacity: 0.3;
+  }
+
 .demo{
     margin:auto;
     width:200px;
@@ -104,9 +150,14 @@ textarea{
   .button:focus { outline:0; }
 
   .frame{
-    display:flex;
+    display:none;
     justify-content: center;
-    align-items: center;
-    padding-top: 40px;
+    align-items:center;
+    width: auto;
+    height: auto;
+    
   }
-  
+.oct{
+    display:none;
+}
+
