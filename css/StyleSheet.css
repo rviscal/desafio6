@@ -155,7 +155,7 @@ textarea{
     align-items:center;
     width: auto;
     height: auto;
-    
+    padding-top:10px
   }
 .oct{
     display:none;
